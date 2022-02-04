@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import {Button} from "react-bootstrap";
+import ClassCounterChaild from "./ClassCounterChaild";
 
 export class ClassCounter extends Component{
     constructor (){
@@ -20,9 +21,12 @@ export class ClassCounter extends Component{
     render (){
         return(
             <div>
-                <h1>Count: {this.state.count}</h1>
+                <ClassCounterChaild countNumber = {this.state.count}
+                                    countValue = {this.state.count}
+                />
                 <Button  onClick={this.Increment} >Increment</Button>
                 <Button onClick={ () => this.Decrement()} >Decrement</Button>
+                
             </div>
         )
     }
