@@ -15,9 +15,9 @@ const [text,setText]= useState({});
             
             <h3 >{ text.name} { text.Meddel} { text.Last}{ text.Address}</h3>
             <Button> Click Me </Button>
-
             <Search/>
             <CounterWithReducer/>
+
 
         </div>
         

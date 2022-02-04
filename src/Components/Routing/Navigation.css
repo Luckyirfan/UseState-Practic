@@ -1,0 +1,15 @@
+.Nav{
+    background-color: lightgreen;
+    background-image: url(/public/immg1.jpg);
+
+
+
+    }
+.key{
+    background-color: rgb(10, 90, 143);
+    margin: 20px;
+    padding: 2px;
+    border-radius: 5px;
+    color: lightyellow;
+    text-decoration: none;
+}

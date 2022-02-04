@@ -1,4 +1,5 @@
 import React,{useReducer} from 'react';
+import { Button } from 'react-bootstrap';
 export const initialState={
     counterOne: 0,
     counterTwo: 10,
@@ -26,11 +27,11 @@ if (action.type=== "Decrement"){
         <div>
             <h1>hello usereducer</h1>
             <h1>counterOne: {count.counterOne}</h1>
-            <button onClick={()=>dispatch({type: "Increment"})} >IncrementcounterOne</button>
-            <button onClick={()=>dispatch({type: "Decrement"})}>DecrementcounterOne </button>
+            <Button onClick={()=>dispatch({type: "Increment"})} >IncrementcounterOne</Button>
+            <Button onClick={()=>dispatch({type: "Decrement"})}>DecrementcounterOne </Button>
             <h2>counterTwo : {count1.counterTwo} </h2>
-            <button onClick={()=>dispatch1({type: "Increment"})} >IncrementcounterTwo</button>
-            <button onClick={()=>dispatch1({type: "Decrement"})}>IncrementcounterTwo</button>
+            <Button onClick={()=>dispatch1({type: "Increment"})} >IncrementcounterTwo</Button>
+            <Button onClick={()=>dispatch1({type: "Decrement"})}>IncrementcounterTwo</Button>
         </div>
     );
 };
