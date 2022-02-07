@@ -9,8 +9,7 @@ const App = () => {
       <div>
       {/* <h1>App.js</h1> */}
       <Parent/>
-      
-       <Landing/>
+      <Landing/>
        
        </div>
     </div>
