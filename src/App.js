@@ -4,6 +4,7 @@ import "./App.css";
 import { Parent } from './Components/Parent';
 import Landing from './Components/Routing/Landing';
 import ProductList from "../src/Components/ClassComponent/Products/ProductList"
+import FachingDataFromApi from "./Components/API/FachingDataFromApi"
 const App = () => {
   return (
     <div className='Main'>
@@ -11,7 +12,8 @@ const App = () => {
       {/* <h1>App.js</h1> */}
       <Parent/>
       <Landing/>
-      <ProductList/>
+      {/* <ProductList/> */}
+      <FachingDataFromApi/>
        </div>
     </div>
   );
