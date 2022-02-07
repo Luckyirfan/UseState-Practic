@@ -2,7 +2,9 @@ import React, { useState } from 'react';
 import { Chail1 } from './Chail1';
 import { Button,Input } from 'react-bootstrap';
 import { Search } from './Search';
-import {CounterWithReducer} from "./useReduser/ConterWithReducer"
+import {CounterWithReducer} from "./useReduser/ConterWithReducer";
+import TestUseReducer from './useReduser/TestUseReducer';
+
 export const Parent = () => {
 const [text,setText]= useState({});
       
@@ -17,6 +19,7 @@ const [text,setText]= useState({});
             <Button> Click Me </Button>
             <Search/>
             <CounterWithReducer/>
+            <TestUseReducer/>
 
 
         </div>
