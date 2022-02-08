@@ -5,7 +5,7 @@ const FachingDataFromApi = () => {
     const[data,setData]= useState([]);
 
     const getPostDetail1 = async()=> {
-        const result = await axios.get("https://jsonplaceholder.typicode.com/posts")
+        const result = await axios.get("http://localhost:3000/Products")
   setData(result.data);
     };
     useEffect (()=>{
