@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState,} from 'react';
 import axios from 'axios';
 
 
@@ -14,13 +14,14 @@ const PostData = () => {
     return (
         <div>
             <input type="text"placeholder='userId' 
-            onChange={(e)=>setUserId {e.target.value}} /> <br />
+            onChange={(e)=>setUserId (e.target.value)} /> <br />
 
             <input type="text"placeholder='title' 
-            onChange={()=>{}} /> <br />
+            onChange={(e)=>setTitle (e.target.value)} /> <br />
 
             <input type="text"placeholder='body'  
-            onChange={()=>{}}/><br />
+            onChange={(e)=>setBody (e.target.value)}/><br />
+            <button onClick={postDetails} >Submit</button>
         </div>
     );
 };
