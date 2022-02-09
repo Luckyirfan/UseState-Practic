@@ -20,7 +20,7 @@ const FatchData = () => {
                 return(
                     <div>
                     <h1>{items.title}</h1>
-                    <p>{items.body}</p>
+                    <p>{items.desc}</p>
                     </div>
 
                 )
