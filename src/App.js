@@ -8,6 +8,7 @@ import FachingDataFromApi from "./Components/API/FachingDataFromApi"
 import ReducerMapping from './Components/API/ReducerMapping';
 import FatchData from "./Components/API2/FatchData"
 import PostData from './Components/API2/PostData';
+import FachDataRedux from './Components/ReduxFachData/FachDataRedux';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       {/* <ReducerMapping/> */}
       <PostData/>
       <FatchData/>
+      <FachDataRedux/>
        </div>
     </div>
   );
