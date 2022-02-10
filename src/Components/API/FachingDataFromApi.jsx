@@ -14,7 +14,8 @@ const FachingDataFromApi = () => {
 
     return (
         <div>
-            <h1>FachingDataFromApi</h1>
+            <h1>FACHING DATA FROM API</h1>
+
             {data.map((myData)=>{
                 return(
 

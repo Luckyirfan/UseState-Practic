@@ -8,7 +8,7 @@ import Contect from "./ContectUs"
 const Landing = () => {
     return (
         <div>
-            <h1>Landing</h1>
+            <h1>LANDING</h1>
 
             <BrowserRouter>
             <Navigation/>

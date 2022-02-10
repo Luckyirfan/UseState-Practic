@@ -12,15 +12,15 @@ const PostData = () => {
     };
 
     return (
-        <div>
-            <input type="text"placeholder='userId' 
-            onChange={(e)=>setUserId (e.target.value)} /> <br />
+        <div> <h1>ADD DATA FOR DATABASE</h1>
+            UserId :<input type="text"placeholder='userId' 
+            onChange={(e)=>setUserId (e.target.value)} /> <br /><br />
 
-            <input type="text"placeholder='title' 
-            onChange={(e)=>setTitle (e.target.value)} /> <br />
+            Title :-<input type="text"placeholder='title' 
+            onChange={(e)=>setTitle (e.target.value)} /> <br /><br />
 
-            <input type="text"placeholder='body'  
-            onChange={(e)=>setBody (e.target.value)}/><br />
+           Body :<input type="text"placeholder='body'  
+            onChange={(e)=>setBody (e.target.value)}/><br /><br />
             <button onClick={postDetails} >Submit</button>
         </div>
     );

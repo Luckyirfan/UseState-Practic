@@ -10,10 +10,9 @@ export const Search = () => {
     
         useEffect(() => {
             const filtered =days.filter((elem)=>
-            elem.toLowerCase().includes(text.toLowerCase())
-            );
+            elem.toLowerCase().includes(text.toLowerCase()) );
             setList(filtered)
-        },[text]);
+ },[text]);
 
     
 
@@ -21,6 +20,7 @@ export const Search = () => {
 
     return (
         <div>
+            <h1>SEARCH COM</h1>
             <h1>{text}</h1>
             <Button>Search</Button>
             <input type="text"onChange={(elem)=> setText(elem.target.value)} />

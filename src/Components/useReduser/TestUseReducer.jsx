@@ -26,7 +26,7 @@ const TestUseReducer = () => {
     };
     return (
         <div>
-            <h1> Hello TestUseReducer</h1>
+            <h1> TESTUSEREDUCER</h1>
             <h1> Current Count:{currentState.counter}</h1>
             <input type="number" onChange={(e)=> setText(e.target.value.toNumber())} />
             <button onClick={() =>dispatch({type:"Increment", data:text})} >Increment</button>

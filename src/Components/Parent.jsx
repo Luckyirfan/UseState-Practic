@@ -1,25 +1,24 @@
 import React, { useState } from 'react';
-import { Chail1 } from './Chail1';
-import { Button,Input } from 'react-bootstrap';
-import { Search } from './Search';
-import {CounterWithReducer} from "./useReduser/ConterWithReducer";
-import TestUseReducer from './useReduser/TestUseReducer';
+import { Button } from 'react-bootstrap';
+
 
 export const Parent = () => {
-const [text,setText]= useState({});
+const [name,setName]= useState("");
+const [mname,setMname]= useState("");
+const [lname,setLname]= useState("");
+const [add,setAdd]= useState("");
       
        return (
         <div>
-            First Name : <input type="text" onChange={(elem)=>{{name:setText(elem.target.value)}}} />
-           Meddel Name : <input type="text" onChange={(elem)=>{{Meddel:setText(elem.target.value)}}} />
-           Last Name : <input type="text" onChange={(elem)=>{{Last:setText(elem.target.value)}}} />
-           Address : <input type="text" onChange={(elem)=>{{Address:setText(elem.target.value)}} } />
+            <h1>PARANT COM</h1>
+            First Name : <input type="text" onChange={(elem)=>{{setName(elem.target.value)}}} />
+           Meddel Name : <input type="text" onChange={(elem)=>{{setMname(elem.target.value)}}} />
+           Last Name : <input type="text" onChange={(elem)=>{{setLname(elem.target.value)}}} />
+           Address : <input type="text" onChange={(elem)=>{{setAdd(elem.target.value)}} } />
             
-            <h3 >{ text.name} { text.Meddel} { text.Last}{ text.Address}</h3>
+            <h3 >{ name} { mname} {lname} {add}</h3>
             <Button> Click Me </Button>
-            <Search/>
-            <CounterWithReducer/>
-            <TestUseReducer/>
+            
 
 
         </div>

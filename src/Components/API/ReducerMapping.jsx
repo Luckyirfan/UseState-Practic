@@ -21,7 +21,7 @@ const ReducerMapping = () => {
     const [getState,dispatch]= useReducer(reducer, initialState);
     return (
         <div>
-            <h1> this reducer </h1>
+            <h1> REDUCER MAPPING </h1>
             
             {getState.allData.map((item)=>{
                 return(
@@ -33,7 +33,7 @@ const ReducerMapping = () => {
                         </div>
                 )
             })}
-                        <h1> added item</h1>
+                        <h1> RD MAP</h1>
                         {getState.added.map((item)=>{
                             return(
                                 <div>

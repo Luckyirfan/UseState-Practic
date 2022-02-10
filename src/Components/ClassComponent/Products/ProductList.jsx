@@ -15,12 +15,10 @@ useEffect (()=>{
 
     return (
         <div className='prodlist' >
-
+         <h1>PRODUCT LIST</h1>
             {data.map((items)=>{
                 return(
-                    
-            
-             <ProductItem item={items} key={items.id}/>
+                    <ProductItem item={items} key={items.id}/>
              ) })}
             
         </div>

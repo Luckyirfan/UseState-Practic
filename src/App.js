@@ -12,25 +12,30 @@ import FachDataRedux from './Components/ReduxFachData/FachDataRedux';
 import UseRefHooks from './Components/Hooks/UseRefHooks';
 import UseRefMuteble from "./Components/Hooks/UseRefMuteble"
 import UseRefTimer from './Components/Hooks/UseRefTimer';
-import {NavReduser} from "./Components/useReduser/NevReduser"
+import { Search } from './Components/Search';
+import { CounterWithReducer } from './Components/useReduser/ConterWithReducer';
+import TestUseReducer from './Components/useReduser/TestUseReducer';
 
 const App = () => {
   return (
     <div className='Main'>
       <div>
-      {/* <h1>App.js</h1> */}
-      {/* <Parent/>
-      <Landing/> */}
-      {/* <ProductList/> */}
-      {/* <FachingDataFromApi/> */}
-      {/* <ReducerMapping/> */}
+       
+      <Parent/> 
+      <Search/>  
+      <CounterWithReducer/>
+      <TestUseReducer/>
+      <Landing/> 
+      <ProductList/> 
+      <FachingDataFromApi/> 
+      <ReducerMapping/> 
       <PostData/>
       <FatchData/>
       <FachDataRedux/>
       <UseRefHooks/>
       <UseRefMuteble/>
       <UseRefTimer/>
-      <NavReduser/>
+      
        </div>
     </div>
   );

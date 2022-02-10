@@ -16,11 +16,13 @@ const FatchData = () => {
     
     return (
         <div>
+            <h1>FATCH DATA</h1>
             { apiData.map((items)=>{
                 return(
                     <div>
-                    <h1>{items.title}</h1>
-                    <p>{items.desc}</p>
+                        
+                    <h2>{items.title}</h2>
+                    <p> {items.desc}</p>
                     </div>
 
                 )

@@ -25,7 +25,7 @@ if (action.type=== "Decrement"){
     const [count1,dispatch1] = useReducer(reducer1,initialState);
     return (
         <div>
-            <h1>hello usereducer</h1>
+            <h1>COUNTERWITHREDUCER</h1>
             <h1>counterOne: {count.counterOne}</h1>
             <Button onClick={()=>dispatch({type: "Increment"})} >IncrementcounterOne</Button>
             <Button onClick={()=>dispatch({type: "Decrement"})}>DecrementcounterOne </Button>
