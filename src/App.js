@@ -9,6 +9,9 @@ import ReducerMapping from './Components/API/ReducerMapping';
 import FatchData from "./Components/API2/FatchData"
 import PostData from './Components/API2/PostData';
 import FachDataRedux from './Components/ReduxFachData/FachDataRedux';
+import UseRefHooks from './Components/Hooks/UseRefHooks';
+import UseRefMuteble from "./Components/Hooks/UseRefMuteble"
+import UseRefTimer from './Components/Hooks/UseRefTimer';
 
 const App = () => {
   return (
@@ -23,6 +26,9 @@ const App = () => {
       <PostData/>
       <FatchData/>
       <FachDataRedux/>
+      <UseRefHooks/>
+      <UseRefMuteble/>
+      <UseRefTimer/>
        </div>
     </div>
   );
