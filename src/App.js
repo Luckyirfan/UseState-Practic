@@ -12,6 +12,7 @@ import FachDataRedux from './Components/ReduxFachData/FachDataRedux';
 import UseRefHooks from './Components/Hooks/UseRefHooks';
 import UseRefMuteble from "./Components/Hooks/UseRefMuteble"
 import UseRefTimer from './Components/Hooks/UseRefTimer';
+import {NavReduser} from "./Components/useReduser/NevReduser"
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
       <UseRefHooks/>
       <UseRefMuteble/>
       <UseRefTimer/>
+      <NavReduser/>
        </div>
     </div>
   );
