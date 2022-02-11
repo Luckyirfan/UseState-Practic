@@ -15,13 +15,14 @@ import UseRefTimer from './Components/Hooks/UseRefTimer';
 import { Search } from './Components/Search';
 import { CounterWithReducer } from './Components/useReduser/ConterWithReducer';
 import TestUseReducer from './Components/useReduser/TestUseReducer';
+import Home from "./Components/useCallBack/Performence/Home"
 
 const App = () => {
   return (
     <div className='Main'>
       <div>
        
-      <Parent/> 
+      {/* <Parent/> 
       <Search/>  
       <CounterWithReducer/>
       <TestUseReducer/>
@@ -34,7 +35,8 @@ const App = () => {
       <FachDataRedux/>
       <UseRefHooks/>
       <UseRefMuteble/>
-      <UseRefTimer/>
+      <UseRefTimer/> */}
+      <Home/>
       
        </div>
     </div>
