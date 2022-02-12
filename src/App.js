@@ -17,6 +17,8 @@ import { CounterWithReducer } from './Components/useReduser/ConterWithReducer';
 import TestUseReducer from './Components/useReduser/TestUseReducer';
 import Home from "./Components/useCallBack/Performence/Home"
 
+
+
 const App = () => {
   return (
     <div className='Main'>
@@ -37,6 +39,7 @@ const App = () => {
       <UseRefMuteble/>
       <UseRefTimer/> */}
       <Home/>
+      
       
        </div>
     </div>
