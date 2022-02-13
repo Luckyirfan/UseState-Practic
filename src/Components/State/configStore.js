@@ -1,5 +1,4 @@
 import {createStore, combineReducers} from "redux";
-
 import { sampleReducer } from "./Reducers/sampileReducer";
 
 export const configStore =()=>{

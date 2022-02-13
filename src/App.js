@@ -24,7 +24,7 @@ const App = () => {
     <div className='Main'>
       <div>
        
-      {/* <Parent/> 
+      <Parent/> 
       <Search/>  
       <CounterWithReducer/>
       <TestUseReducer/>
@@ -37,7 +37,7 @@ const App = () => {
       <FachDataRedux/>
       <UseRefHooks/>
       <UseRefMuteble/>
-      <UseRefTimer/> */}
+      <UseRefTimer/>
       <Home/>
       
       

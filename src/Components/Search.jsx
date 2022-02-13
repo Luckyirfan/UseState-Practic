@@ -22,8 +22,8 @@ export const Search = () => {
         <div>
             <h1>SEARCH COM</h1>
             <h1>{text}</h1>
-            <Button>Search</Button>
             <input type="text"onChange={(elem)=> setText(elem.target.value)} />
+            <Button >Search</Button>
             <ul>
             {list.map((days)=>{
                 return <li>{days}</li>;
