@@ -10,15 +10,15 @@ const Landing = () => {
         <div>
             <h1>LANDING</h1>
 
-            {/* <BrowserRouter>
+            <BrowserRouter>
             <Navigation/>
-            <Routes>
+            
              <Route path ="/"element ={<Home/>} />
              <Route path ="Product"element ={<Product/>}/>
              <Route  path ="Services"element ={<Services/>} />
              <Route  path ="ContectUs"element ={<Contect/>}/>
-            </Routes>
-            </BrowserRouter> */}
+            
+            </BrowserRouter>
         </div>
     );
 };
