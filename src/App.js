@@ -16,6 +16,7 @@ import { Search } from './Components/Search';
 import { CounterWithReducer } from './Components/useReduser/ConterWithReducer';
 import TestUseReducer from './Components/useReduser/TestUseReducer';
 import Home from "./Components/useCallBack/Performence/Home"
+import { Chail1 } from './Components/Chail1';
 
 
 
@@ -24,7 +25,7 @@ const App = () => {
     <div className='Main'>
       <div>
        
-      <Parent/> 
+      {/* <Parent/> 
       <Search/>  
       <CounterWithReducer/>
       <TestUseReducer/>
@@ -38,8 +39,8 @@ const App = () => {
       <UseRefHooks/>
       <UseRefMuteble/>
       <UseRefTimer/>
-      <Home/>
-      
+      <Home/> */}
+      <Chail1/>
       
        </div>
     </div>
